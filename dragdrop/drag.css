@@ -1,0 +1,28 @@
+.main-container {
+  width: 700px;
+  height: 250px;
+}
+
+.container {
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container .child {
+    line-height: 20px;
+    position: absolute;
+    margin-top: 34%;
+    cursor: -webkit-grab;
+    margin-left: -30px;
+}
