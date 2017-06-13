@@ -52,7 +52,7 @@ function drop(e) {
 }
 
 function reportData(pDataTransafer, target) {
-
+debugger
   Array.prototype.forEach.call(pDataTransafer.types, function (type) {
     var d = document.createElement('div');
     d.setAttribute('draggable', true);
