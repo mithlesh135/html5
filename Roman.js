@@ -26,6 +26,18 @@ function RomanNumbers() {
     }, {
         value: 100,
         symbol: 'C'
+    }, {
+        value: 400,
+        symbol: 'CD'
+    },{
+        value: 500,
+        symbol: 'D'
+    }, {
+        value: 900,
+        symbol: 'CM'
+    }, {
+        value: 1000,
+        symbol: 'M'
     }];
 };
 
@@ -58,6 +70,6 @@ RomanNumbers.prototype.getRomanEquivalent = function (num) {
 var rom = new RomanNumbers();
 
 
-for(var i = 1; i <= 100; i++) {
+for(var i = 1; i <= 1000; i++) {
     console.log(i, rom.getRomanEquivalent(i));
 }
